@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-11T23:59:58 IST" name="Default suite" finished-at="2026-03-12T00:00:14 IST" duration-ms="15956">
+  <suite started-at="2026-03-12T23:28:25 IST" name="Ecommerce Test Suite" finished-at="2026-03-12T23:29:01 IST" duration-ms="36713">
     <groups>
     </groups>
-    <test started-at="2026-03-11T23:59:58 IST" name="Default test" finished-at="2026-03-12T00:00:14 IST" duration-ms="15956">
-      <class name="tests.CheckoutTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTests@10683d9d]" started-at="2026-03-11T23:59:58 IST" name="setUp" finished-at="2026-03-12T00:00:01 IST" duration-ms="2663" status="PASS">
+    <test started-at="2026-03-12T23:28:25 IST" name="All Tests" finished-at="2026-03-12T23:29:01 IST" duration-ms="36713">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@6989da5e]" started-at="2026-03-12T23:28:25 IST" name="setUp" finished-at="2026-03-12T23:28:29 IST" duration-ms="4280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="completeCheckout()[pri:0, instance:tests.CheckoutTests@10683d9d]" started-at="2026-03-12T00:00:01 IST" name="completeCheckout" finished-at="2026-03-12T00:00:14 IST" duration-ms="12982" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:tests.LoginTest@6989da5e]" started-at="2026-03-12T23:28:29 IST" name="validLogin" finished-at="2026-03-12T23:28:32 IST" duration-ms="3276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@6989da5e]" started-at="2026-03-12T23:28:32 IST" name="tearDown" finished-at="2026-03-12T23:28:32 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@3a52dba3]" started-at="2026-03-12T23:28:32 IST" name="setUp" finished-at="2026-03-12T23:28:34 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductToCart()[pri:0, instance:tests.CartTest@3a52dba3]" started-at="2026-03-12T23:28:34 IST" name="addProductToCart" finished-at="2026-03-12T23:28:47 IST" duration-ms="13407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@3a52dba3]" started-at="2026-03-12T23:28:47 IST" name="tearDown" finished-at="2026-03-12T23:28:47 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.CheckoutTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTests@2a5c8d3f]" started-at="2026-03-12T23:28:47 IST" name="setUp" finished-at="2026-03-12T23:28:48 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeCheckout()[pri:0, instance:tests.CheckoutTests@2a5c8d3f]" started-at="2026-03-12T23:28:48 IST" name="completeCheckout" finished-at="2026-03-12T23:29:01 IST" duration-ms="12780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completeCheckout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTests@10683d9d]" started-at="2026-03-12T00:00:14 IST" name="tearDown" finished-at="2026-03-12T00:00:14 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTests@2a5c8d3f]" started-at="2026-03-12T23:29:01 IST" name="tearDown" finished-at="2026-03-12T23:29:01 IST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CheckoutTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- All Tests -->
+  </suite> <!-- Ecommerce Test Suite -->
 </testng-results>
