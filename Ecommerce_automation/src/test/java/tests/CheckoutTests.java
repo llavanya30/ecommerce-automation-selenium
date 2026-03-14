@@ -11,6 +11,7 @@ public class CheckoutTests extends BaseTest {
 
     @Test
     public void completeCheckout() throws InterruptedException {
+    	test = extent.createTest("Complete Checkout Test");
         
         // Step 1 - Login
         LoginPage loginPage = new LoginPage(driver);

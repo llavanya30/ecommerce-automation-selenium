@@ -9,6 +9,8 @@ public class CartTest extends BaseTest{
 	
 	 @Test
 	    public void addProductToCart() throws InterruptedException {
+
+	        test = extent.createTest("Add products to cart test");
 	        // Step 1 - Login first
 	        LoginPage loginPage = new LoginPage(driver);
 	        loginPage.enterUsername("standard_user");
